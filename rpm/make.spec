@@ -52,9 +52,10 @@ fi
 %files
 %defattr(-,root,root,-)
 # >> files
-%doc NEWS README COPYING AUTHORS
+%doc
 %{_bindir}/*
 %doc %{_mandir}/man*/*
+%{_datarootdir}/*
 %{_infodir}/make.info-1.gz
 %{_infodir}/make.info-2.gz
 %{_infodir}/make.info.gz
